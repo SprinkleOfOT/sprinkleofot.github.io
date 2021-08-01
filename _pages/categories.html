@@ -24,7 +24,7 @@ permalink: "/categories.html"
     
     <h3 class="mt-4 display-4" id="{{ category[0] | downcase }}"><small class="text-muted">#</small> {{ category[0] }}</h3><hr>
     
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 align-items-center">
 
         {% assign pages_list = category[1] %}
         {% for post in pages_list %}
