@@ -14,3 +14,19 @@
 .categories {
   flex-wrap: wrap;
 }
+
+nav {
+  background-color: #022B3A;
+}
+
+.navbar-categories {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-link {
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #E1E5F2;
+}
