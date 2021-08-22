@@ -19,7 +19,8 @@ nav {
   background-color: #022B3A;
 }
 
-.navbar-categories {
+.navbar-categories,
+.navbar-pagination {
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -30,3 +31,12 @@ nav {
 body {
   background-color: #E1E5F2;
 }
+
+.navbar-pagination .page-link {
+  color: #022B3A;
+}
+.navbar-pagination .page-item.active .page-link {
+  background-color: #022B3A;
+  border-color: #022B3A;
+}
+
