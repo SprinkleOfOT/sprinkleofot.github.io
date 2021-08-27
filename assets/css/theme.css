@@ -24,19 +24,14 @@ nav {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.navbar-link,
-.navbar-link:link,
-.navbar-link:visited {
+.navbar-dark .navbar-nav .navbar-link,
+.navbar-dark .navbar-nav .navbar-link:link,
+.navbar-dark .navbar-nav .navbar-link:visited {
   color: #FFFFFF;
 }
 
-.navbar-link:hover {
+.navbar-dark .navbar-nav .navbar-link:hover {
   color: #BFDBF7;
-}
-
-.navbar-link.active {
-  color: #BFDBF7;
-  font-weight: 800;
 }
 
 body {
