@@ -1,0 +1,61 @@
+---
+---
+$variable-prefix:             bs- !default;
+
+// BOOTSTRAP OVERRIDES
+$font-family-sans-serif:       "Comfortaa", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+// stylelint-enable value-keyword-case
+$font-family-base:            var(--#{$variable-prefix}font-sans-serif) !default;
+$font-family-code:            var(--#{$variable-prefix}font-monospace) !default;
+
+@import "bootstrap/bootstrap";
+
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card img {
+  transition: .3s ease;
+}
+
+.card:hover img {
+  opacity: 0.3;
+}
+
+.categories {
+  flex-wrap: wrap;
+}
+
+nav {
+  background-color: #022B3A;
+}
+
+.navbar-categories,
+.navbar-pagination {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-dark .navbar-nav .navbar-link,
+.navbar-dark .navbar-nav .navbar-link:link,
+.navbar-dark .navbar-nav .navbar-link:visited {
+  color: #FFFFFF;
+}
+
+.navbar-dark .navbar-nav .navbar-link:hover {
+  color: #BFDBF7;
+}
+
+.navbar-pagination .page-link {
+  color: #022B3A;
+}
+.navbar-pagination .page-item.active .page-link {
+  background-color: #022B3A;
+  border-color: #022B3A;
+}
+
+body {
+  background-color: #E1E5F2;
+}
+
