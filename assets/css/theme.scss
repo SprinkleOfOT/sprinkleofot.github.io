@@ -11,6 +11,9 @@ $font-family-code:            var(--#{$variable-prefix}font-monospace) !default;
 
 @import "bootstrap/bootstrap";
 
+$dark-primary-color: #022B3A;
+$light-primary-color: #BFDBF7;
+
 .card {
   border-radius: 1rem;
   overflow: hidden;
@@ -29,7 +32,7 @@ $font-family-code:            var(--#{$variable-prefix}font-monospace) !default;
 }
 
 nav {
-  background-color: #022B3A;
+  background-color: $dark-primary-color;
 }
 
 .navbar-categories,
@@ -40,22 +43,23 @@ nav {
 .navbar-dark .navbar-nav .navbar-link,
 .navbar-dark .navbar-nav .navbar-link:link,
 .navbar-dark .navbar-nav .navbar-link:visited {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .navbar-dark .navbar-nav .navbar-link:hover {
-  color: #BFDBF7;
+  color: $light-primary-color;
 }
 
 .navbar-pagination .page-link {
-  color: #022B3A;
+  color: $dark-primary-color;
 }
+
 .navbar-pagination .page-item.active .page-link {
-  background-color: #022B3A;
-  border-color: #022B3A;
+  background-color: $dark-primary-color;
+  border-color: $dark-primary-color;
 }
 
 body {
-  background-color: #E1E5F2;
+  background-color: #FFF;
 }
 
